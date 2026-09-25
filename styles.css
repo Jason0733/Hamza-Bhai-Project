@@ -1346,12 +1346,12 @@ body::after{
   font-size: 10px;
   color: var(--gold-bright);
 }
-.book .meta .lbl.is-newest{
+.book .meta .lbl.is-marked{
   display: inline-flex;
   align-items: center;
   gap: .55em;
 }
-.book .meta .lbl.is-newest::before{
+.book .meta .lbl.is-marked::before{
   content: "";
   width: 5px;
   height: 5px;
