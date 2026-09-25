@@ -1,0 +1,828 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Kelley Cole Schemmel — Coastal Poetry &amp; Stories</title>
+<meta name="description" content="Author of Under the Palms — coastal poetry and stories with sand still stuck between the pages. Kelley Cole Schemmel writes about saltwater, yoga, family, and the quiet strength of protecting your peace." />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500&family=Petit+Formal+Script&family=Caveat:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- ================= NAV ================= -->
+<nav class="nav" id="nav">
+  <div class="brand">
+    <span class="k">K</span>
+    <span>Kelley&nbsp;Cole&nbsp;Schemmel</span>
+  </div>
+  <div class="center">the shore is more than a place</div>
+  <ul>
+    <li><a href="#featured">The Book</a></li>
+    <li><a href="#flipbook">Flipbook</a></li>
+    <li><a href="#reading">Poems</a></li>
+    <li><a href="#collection">Collection</a></li>
+    <li><a href="#about">About</a></li>
+  </ul>
+</nav>
+
+<!-- ================= HERO — animated coastal scene ================= -->
+<header class="hero" id="hero">
+  <div class="sky"></div>
+  <div class="sun"></div>
+  <div class="glow"></div>
+
+  <!-- birds -->
+  <div class="birds" aria-hidden="true">
+    <svg class="b1" viewBox="0 0 40 20" fill="none" stroke="currentColor" stroke-width="1.4">
+      <path d="M2 12 Q 8 4 14 12 Q 20 4 26 12 Q 32 4 38 12" stroke-linecap="round"/>
+    </svg>
+    <svg class="b2" viewBox="0 0 40 20" fill="none" stroke="currentColor" stroke-width="1.4">
+      <path d="M2 12 Q 8 4 14 12 Q 20 4 26 12 Q 32 4 38 12" stroke-linecap="round"/>
+    </svg>
+    <svg class="b3" viewBox="0 0 40 20" fill="none" stroke="currentColor" stroke-width="1.4">
+      <path d="M2 12 Q 8 4 14 12 Q 20 4 26 12 Q 32 4 38 12" stroke-linecap="round"/>
+    </svg>
+  </div>
+
+  <!-- animated waves -->
+  <div class="waves">
+    <div class="wave w1"></div>
+    <div class="wave w2"></div>
+    <div class="wave w3"></div>
+    <div class="wave w4"></div>
+  </div>
+
+  <!-- palm silhouettes drawn in SVG -->
+  <svg class="palm-l" viewBox="0 0 240 700" fill="#0a121b" aria-hidden="true">
+    <!-- trunk -->
+    <path d="M118 700 C 112 550, 118 400, 122 250 C 122 200, 118 150, 115 80" stroke="#0a121b" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <!-- trunk rings -->
+    <g stroke="#0a121b" stroke-width="2" opacity=".7">
+      <path d="M108 600 Q 118 596 128 600" fill="none"/>
+      <path d="M108 540 Q 118 536 128 540" fill="none"/>
+      <path d="M108 480 Q 118 476 128 480" fill="none"/>
+      <path d="M108 420 Q 118 416 128 420" fill="none"/>
+      <path d="M108 360 Q 118 356 128 360" fill="none"/>
+      <path d="M108 300 Q 118 296 128 300" fill="none"/>
+      <path d="M108 240 Q 118 236 128 240" fill="none"/>
+      <path d="M110 180 Q 118 176 126 180" fill="none"/>
+    </g>
+    <!-- crown of fronds -->
+    <g fill="#0a121b">
+      <!-- upper right fronds -->
+      <path d="M115 80 C 155 40, 210 20, 235 30 C 210 55, 175 78, 130 88 Z"/>
+      <path d="M115 80 C 165 60, 220 60, 240 80 C 210 95, 170 100, 128 92 Z"/>
+      <path d="M115 82 C 165 90, 215 108, 235 130 C 200 128, 165 118, 128 100 Z"/>
+      <!-- upper left fronds -->
+      <path d="M115 80 C 75 40, 20 20, -5 30 C 20 55, 55 78, 100 88 Z"/>
+      <path d="M115 80 C 65 60, 10 60, -10 80 C 20 95, 60 100, 102 92 Z"/>
+      <path d="M115 82 C 65 90, 15 108, -5 130 C 30 128, 65 118, 102 100 Z"/>
+      <!-- lower drooping -->
+      <path d="M118 82 C 100 130, 60 160, 20 180 C 60 155, 90 130, 115 100 Z"/>
+      <path d="M118 82 C 140 130, 180 160, 220 180 C 180 155, 150 130, 122 100 Z"/>
+      <!-- coconuts -->
+      <circle cx="120" cy="95" r="4"/>
+      <circle cx="128" cy="98" r="4"/>
+      <circle cx="112" cy="98" r="4"/>
+    </g>
+  </svg>
+
+  <svg class="palm-r" viewBox="0 0 240 700" fill="#0a121b" aria-hidden="true">
+    <path d="M118 700 C 112 550, 118 400, 122 250 C 122 200, 118 150, 115 80" stroke="#0a121b" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <g fill="#0a121b">
+      <path d="M115 80 C 155 40, 210 20, 235 30 C 210 55, 175 78, 130 88 Z"/>
+      <path d="M115 80 C 165 60, 220 60, 240 80 C 210 95, 170 100, 128 92 Z"/>
+      <path d="M115 82 C 165 90, 215 108, 235 130 C 200 128, 165 118, 128 100 Z"/>
+      <path d="M115 80 C 75 40, 20 20, -5 30 C 20 55, 55 78, 100 88 Z"/>
+      <path d="M115 80 C 65 60, 10 60, -10 80 C 20 95, 60 100, 102 92 Z"/>
+      <path d="M115 82 C 65 90, 15 108, -5 130 C 30 128, 65 118, 102 100 Z"/>
+      <path d="M118 82 C 100 130, 60 160, 20 180 C 60 155, 90 130, 115 100 Z"/>
+      <path d="M118 82 C 140 130, 180 160, 220 180 C 180 155, 150 130, 122 100 Z"/>
+    </g>
+  </svg>
+
+  <div class="vignette"></div>
+
+  <div class="stage">
+    <div class="headline">
+      <span class="over" data-hero="0">Coastal poetry &amp; stories</span>
+      <h1>
+        <span data-hero="1">Under</span>
+        <span class="the" data-hero="2">the</span>
+        <span data-hero="3">Palms</span>
+        <span class="divider" data-hero="4">
+          <svg class="deco-shell" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
+            <path d="M12 3c1 4 4 6 8 6-2 6-8 12-8 12S6 15 4 9c4 0 7-2 8-6z"/>
+            <path d="M12 3v18M6.5 6L12 21M17.5 6L12 21M4 9l16 0" stroke-linecap="round" stroke-width=".6"/>
+          </svg>
+        </span>
+      </h1>
+      <div class="sub" data-hero="5">Coastal poetry and stories<br/>with sand still stuck between the pages.</div>
+      <div class="byline" data-hero="6">A book by Kelley Cole Schemmel</div>
+    </div>
+
+    <div class="meta">
+      <div>Gulf Coast &nbsp;·&nbsp; MMXXVI</div>
+      <div class="scroll">
+        <span>Scroll</span>
+        <span class="line"></span>
+      </div>
+      <div>Chapter 01 &nbsp;·&nbsp; Saltwater</div>
+    </div>
+  </div>
+</header>
+
+<!-- ================= WHISPER ================= -->
+<section class="whisper">
+  <!-- decorative watercolor blob edges -->
+  <svg class="mark-l" viewBox="0 0 200 200" fill="none" stroke="var(--gold)" stroke-width=".6" opacity=".6" aria-hidden="true">
+    <path d="M20 100 Q 50 40 100 60 T 180 100" stroke-linecap="round"/>
+    <path d="M20 120 Q 50 80 100 90 T 180 120" stroke-linecap="round"/>
+    <path d="M20 140 Q 50 110 100 118 T 180 140" stroke-linecap="round"/>
+  </svg>
+  <svg class="mark-r" viewBox="0 0 200 200" fill="none" stroke="var(--gold)" stroke-width=".6" opacity=".6" aria-hidden="true">
+    <circle cx="100" cy="100" r="60" opacity=".4"/>
+    <circle cx="100" cy="100" r="40" opacity=".5"/>
+    <path d="M100 40 L 100 160 M 40 100 L 160 100" opacity=".3"/>
+  </svg>
+
+  <div class="margin-note reveal d2">
+    a note to myself, and to you —
+  </div>
+
+  <p class="quote reveal">
+    Chaos never really leaves.<br/>
+    It just <em>softens</em><br/>
+    under saltwater light.
+  </p>
+  <div class="attribution reveal d2">from Saltwater</div>
+</section>
+
+<!-- ================= FEATURED BOOK ================= -->
+<section class="featured" id="featured">
+  <div class="bg"></div>
+
+  <!-- palm frond decoration -->
+  <svg class="palm-deco" viewBox="0 0 400 400" fill="currentColor" aria-hidden="true">
+    <g opacity=".7">
+      <path d="M200 400 Q 190 200 210 20" stroke="currentColor" stroke-width="4" fill="none"/>
+      <path d="M210 60 Q 300 40 360 20 Q 330 80 220 90 Z"/>
+      <path d="M210 100 Q 320 100 380 130 Q 340 150 220 130 Z"/>
+      <path d="M210 140 Q 320 170 370 220 Q 320 220 220 170 Z"/>
+      <path d="M210 60 Q 120 40 60 20 Q 90 80 200 90 Z"/>
+      <path d="M210 100 Q 100 100 40 130 Q 80 150 200 130 Z"/>
+      <path d="M210 140 Q 100 170 50 220 Q 100 220 200 170 Z"/>
+    </g>
+  </svg>
+
+  <div class="wrap">
+    <div class="cover-stage reveal">
+      <div class="cover-3d" id="cover3d">
+        <div class="face spine"></div>
+        <div class="face front"></div>
+        <div class="face pages"></div>
+      </div>
+      <div class="ephemera tape"></div>
+      <div class="ephemera label">read slowly · take a beat</div>
+    </div>
+
+    <div class="info">
+      <div class="eyebrow on-dark reveal">Now available · The newest collection</div>
+      <h2 class="reveal d1">
+        Under<br/>the Palms<br/>
+        <em>coastal poetry &amp; stories</em>
+      </h2>
+
+      <p class="lede reveal d2">
+        Under the Palms is a collection of coastal poems shaped by sunlight, saltwater, and the quiet moments that stay with us long after the tide goes out.
+      </p>
+      <p class="body reveal d2">
+        Rooted in the Gulf Coast and carried by memory, these pieces move through calm mornings, shifting seasons, familiar shorelines, and the everyday resilience that comes from choosing peace in a world that doesn&rsquo;t always offer it. Through poems, stories, and a final family section, Kelley explores the places that steady us, the journeys that change us, and the humor that keeps us afloat.
+      </p>
+
+      <div class="buys reveal d3">
+        <a class="btn filled" href="#" data-needs-asin="under-the-palms">
+          Buy on Amazon
+          <svg class="arrow" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M1 7h12M8 2l5 5-5 5"/></svg>
+        </a>
+        <a class="btn" href="#flipbook">
+          Read a Preview
+          <svg class="arrow" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M1 7h12M8 2l5 5-5 5"/></svg>
+        </a>
+      </div>
+
+      <div class="stats reveal d4">
+        <div>
+          <div class="n">180</div>
+          <div class="l">Pages &amp; a shell or two</div>
+        </div>
+        <div>
+          <div class="n">VII</div>
+          <div class="l">Sections, one heartbeat</div>
+        </div>
+        <div>
+          <div class="n">01</div>
+          <div class="l">Granddaughter's spark</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FLIPBOOK ================= -->
+<section class="flipbook" id="flipbook">
+  <div class="head">
+    <div class="eyebrow reveal">Turn the pages</div>
+    <h3 class="reveal d1">Step <em>inside</em> the book</h3>
+    <div class="instructions reveal d2">click a corner · drag · listen for the tide</div>
+  </div>
+
+  <div class="frame reveal d2">
+    <div class="plaque">Under the Palms · a preview</div>
+    <span class="corner tl"></span>
+    <span class="corner tr"></span>
+    <span class="corner bl"></span>
+    <span class="corner br"></span>
+    <iframe
+      allowfullscreen="allowfullscreen"
+      scrolling="no"
+      allow="clipboard-write"
+      src="https://heyzine.com/flip-book/955c62044c.html"
+      title="Under the Palms — flipbook preview"
+    ></iframe>
+  </div>
+</section>
+
+<!-- ================= READING ROOM / POEMS ================= -->
+<section class="reading" id="reading">
+  <!-- decorative palm fronds -->
+  <svg class="deco-frond a" viewBox="0 0 500 500" fill="var(--seafoam-deep)" aria-hidden="true">
+    <path d="M250 500 Q 240 250 260 0" stroke="var(--seafoam-deep)" stroke-width="6" fill="none"/>
+    <g>
+      <path d="M260 50 Q 400 30 490 0 Q 440 90 280 100 Z"/>
+      <path d="M260 100 Q 400 100 490 140 Q 440 170 280 140 Z"/>
+      <path d="M260 150 Q 400 180 480 250 Q 400 240 280 180 Z"/>
+      <path d="M260 200 Q 400 240 450 320 Q 380 300 280 240 Z"/>
+      <path d="M260 50 Q 120 30 30 0 Q 80 90 240 100 Z"/>
+      <path d="M260 100 Q 120 100 30 140 Q 80 170 240 140 Z"/>
+      <path d="M260 150 Q 120 180 40 250 Q 120 240 240 180 Z"/>
+      <path d="M260 200 Q 120 240 70 320 Q 140 300 240 240 Z"/>
+    </g>
+  </svg>
+  <svg class="deco-frond b" viewBox="0 0 500 500" fill="var(--sand-warm)" aria-hidden="true">
+    <path d="M250 500 Q 240 250 260 0" stroke="var(--sand-warm)" stroke-width="6" fill="none"/>
+    <g>
+      <path d="M260 50 Q 400 30 490 0 Q 440 90 280 100 Z"/>
+      <path d="M260 100 Q 400 100 490 140 Q 440 170 280 140 Z"/>
+      <path d="M260 150 Q 400 180 480 250 Q 400 240 280 180 Z"/>
+      <path d="M260 50 Q 120 30 30 0 Q 80 90 240 100 Z"/>
+      <path d="M260 100 Q 120 100 30 140 Q 80 170 240 140 Z"/>
+      <path d="M260 150 Q 120 180 40 250 Q 120 240 240 180 Z"/>
+    </g>
+  </svg>
+  <svg class="deco-frond c" viewBox="0 0 500 500" fill="var(--seafoam-deep)" aria-hidden="true">
+    <path d="M250 500 Q 240 250 260 0" stroke="var(--seafoam-deep)" stroke-width="6" fill="none"/>
+    <g>
+      <path d="M260 50 Q 400 30 490 0 Q 440 90 280 100 Z"/>
+      <path d="M260 100 Q 400 100 490 140 Q 440 170 280 140 Z"/>
+      <path d="M260 50 Q 120 30 30 0 Q 80 90 240 100 Z"/>
+      <path d="M260 100 Q 120 100 30 140 Q 80 170 240 140 Z"/>
+    </g>
+  </svg>
+
+  <div class="intro reveal">
+    <div class="num">II</div>
+    <div class="txt">
+      <div class="eyebrow">The reading room</div>
+      <h3>A few pages, <em>left open</em></h3>
+      <p>
+        Sit with these. They&rsquo;re shorter than the world asks you to be. Read one, then close your laptop and go outside for a minute. That&rsquo;s how she wrote them.
+      </p>
+    </div>
+  </div>
+
+  <!-- POEM 1 — Saltwater -->
+  <article class="poem layout-a reveal">
+    <div class="meta-col">
+      <div class="no">01 · Section I</div>
+      <div class="title-vert">from Under the Palms</div>
+      <svg class="shell-mark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width=".8">
+        <path d="M12 3c1 4 4 6 8 6-2 6-8 12-8 12S6 15 4 9c4 0 7-2 8-6z"/>
+        <path d="M12 3v18M6.5 6L12 21M17.5 6L12 21" stroke-width=".4"/>
+      </svg>
+    </div>
+    <div>
+      <h4>Saltwater</h4>
+      <div class="verse">When the world spins loud
+and the headlines feel heavier
+than the sky above them,
+I carry my chaos
+to the shoreline.
+
+The salt air meets me first
+a soft sting, a familiar kiss,
+as if the ocean has been waiting
+to rinse the noise from my mind.
+
+I unroll my mat
+on sand still warm
+from the sun's last blessing,
+a small declaration
+that peace is still possible,
+even here, even now.
+
+The tide breathes for me
+until I remember
+how to breathe for myself.
+
+<span class="em">Chaos never really leaves.</span>
+It just softens
+under saltwater light.
+
+And when I rise,
+the ocean rises with me
+steady, familiar,
+reminding me that calm
+is not the absence of chaos,
+but the courage
+to breathe through it.</div>
+    </div>
+  </article>
+
+  <div class="divider-shell">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M12 3c1 4 4 6 8 6-2 6-8 12-8 12S6 15 4 9c4 0 7-2 8-6z"/><path d="M12 3v18M6.5 6L12 21M17.5 6L12 21" stroke-width=".6"/></svg>
+  </div>
+
+  <!-- POEM 2 — Under the Palms — with image + stamp -->
+  <article class="poem layout-b reveal">
+    <div class="art" style="background-image:url('assets/palm-sea.jpg')">
+      <div class="stamp">
+        Gulf<br/>Coast<br/>~ FL ~
+      </div>
+      <div class="caption">02 · Palm shade · gulf side</div>
+    </div>
+    <div>
+      <div class="eyebrow">Poem 02</div>
+      <h4>Under the Palms</h4>
+      <div class="verse">Under the palms
+is heaven on earth to me.
+It's where my head clears,
+where my shoulders drop,
+where the sun remembers
+how to be gentle.
+
+It's the place
+where my best thinking happens
+not in meetings,
+not in traffic,
+but right here,
+with the breeze doing
+<span class="em">all the heavy lifting.</span>
+
+Under the palms,
+I remember who I am
+before the world
+gets loud again.</div>
+    </div>
+  </article>
+
+  <div class="divider-shell">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M12 3c1 4 4 6 8 6-2 6-8 12-8 12S6 15 4 9c4 0 7-2 8-6z"/><path d="M12 3v18M6.5 6L12 21M17.5 6L12 21" stroke-width=".6"/></svg>
+  </div>
+
+  <!-- POEM 3 — Protecting My Peace — centered with halo -->
+  <article class="poem layout-c reveal">
+    <div class="halo"></div>
+    <div class="eyebrow" style="justify-content: center; display: inline-flex">Poem 03</div>
+    <h4>Protecting <span class="amp">my</span> Peace</h4>
+    <div class="verse">Kindness is my strength
+not a softness that breaks,
+but a softness that holds.
+
+It's the steady breath
+I return to
+when old expectations
+try to pull me back
+into storms I've already outgrown.
+
+It's the quiet power
+that lets me stand firm
+without raising my voice,
+and walk away
+without carrying guilt
+<span class="em">that was never mine.</span></div>
+  </article>
+
+  <div class="divider-shell">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M12 3c1 4 4 6 8 6-2 6-8 12-8 12S6 15 4 9c4 0 7-2 8-6z"/><path d="M12 3v18M6.5 6L12 21M17.5 6L12 21" stroke-width=".6"/></svg>
+  </div>
+
+  <!-- POEM 4 — Sand, Seashells and Sunsets, tall polaroid -->
+  <article class="poem layout-d reveal">
+    <div>
+      <div class="eyebrow">Poem 04</div>
+      <h4>Sand, Seashells<br/><span class="amp">&amp;</span> Sunsets</h4>
+      <div class="verse">Give me sand to walk on,
+the kind that remembers
+every step I've taken
+and still lets me start fresh
+with the next one.
+
+Give me seashells to gather,
+little reminders that even broken things
+can be beautiful
+when the tide has had time
+<span class="em">to soften them.</span>
+
+Give me sunsets to chase,
+slow and steady,
+the sky teaching me
+that endings can be gentle
+and still breathtaking.
+
+Give me days like this
+simple, quiet,
+full of small treasures
+that don't ask for anything
+except that I notice them.</div>
+    </div>
+    <div class="art-tall" style="background-image:url('assets/scallop-shell.jpg')">
+      <div class="polaroid-caption">— pocket collection, sunday</div>
+    </div>
+  </article>
+
+  <div class="divider-shell">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M12 3c1 4 4 6 8 6-2 6-8 12-8 12S6 15 4 9c4 0 7-2 8-6z"/><path d="M12 3v18M6.5 6L12 21M17.5 6L12 21" stroke-width=".6"/></svg>
+  </div>
+
+  <!-- POEM 5 — Peace, small centered benediction -->
+  <article class="poem layout-c reveal">
+    <div class="halo"></div>
+    <div class="eyebrow" style="justify-content:center; display:inline-flex">Poem 05 · A benediction</div>
+    <h4>Peace</h4>
+    <div class="verse">Required daily,
+like tide and moon,
+a rhythm I return to.
+
+I open my heart
+the way the shoreline
+opens to morning light
+slowly,
+softly,
+<span class="em">without apology.</span>
+
+And in that quiet,
+stillness finds me.</div>
+  </article>
+</section>
+
+<!-- ================= COLLECTION ================= -->
+<section class="collection" id="collection">
+  <div class="head reveal">
+    <div>
+      <div class="eyebrow on-dark">§ The collection</div>
+      <h3>Three books,<br/>one <em>shoreline</em>.</h3>
+    </div>
+    <p>Kelley's writing keeps returning to the same coast — the same slow morning, the same barefoot honesty — but each book stands on its own patch of sand. Shown here in the order they were published. There's no order to read them in; begin wherever you like.</p>
+  </div>
+
+  <div class="grid">
+
+    <!-- Light Between the Waves -->
+    <div class="book reveal d1">
+      <div class="cvr cvr-light">
+        <div class="binding"></div>
+        <div class="rays"></div>
+        <div class="cvr-inner">
+          <div class="top-mark">stillness &middot; salt</div>
+          <div class="title-block">
+            <div class="a">Light</div>
+            <div class="b">between the</div>
+            <div class="c">waves</div>
+          </div>
+          <div>
+            <div class="sub">The small light that finds you<br/>between one wave &amp; the next.</div>
+            <div class="aut" style="margin-top:12px">Kelley Cole Schemmel</div>
+          </div>
+        </div>
+      </div>
+      <div class="meta">
+        <span class="lbl">Poems</span>
+        <div class="t">Light Between <em>the</em> Waves</div>
+        <div class="desc">On stillness, salt, and the small light that finds you between one wave and the next.</div>
+        <a href="https://www.amazon.com/Light-Between-Waves-Stillness-Salt/dp/B0H8814YJH/" target="_blank" rel="noopener">Buy on Amazon &rarr;</a>
+      </div>
+    </div>
+
+    <!-- Saltwater, Yoga & a Little Chaos -->
+    <div class="book reveal d2">
+      <div class="cvr cvr-saltwater">
+        <div class="binding"></div>
+        <div class="cvr-inner">
+          <div class="top-mark">
+            <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1"><path d="M7 1v12M1 7l6-6 6 6"/></svg>
+            A Collection
+          </div>
+          <div class="title-block">
+            <div class="a">Saltwater</div>
+            <div class="b">yoga &amp;</div>
+            <div class="c">a little chaos</div>
+            <div class="sep"></div>
+            <div class="sub">A collection of yoga, beach life<br/>and beautiful chaos</div>
+          </div>
+          <div class="aut">Kelley Cole Schemmel</div>
+        </div>
+      </div>
+      <div class="meta">
+        <span class="lbl">Poems &amp; reflections</span>
+        <div class="t">Saltwater, Yoga <em>&amp;</em> a Little Chaos</div>
+        <div class="desc">Yoga, beach life, Gen&nbsp;X honesty, and the ordinary miracles stitched between them.</div>
+        <a href="https://www.amazon.com/Saltwater-Yoga-Little-Chaos-Collection/dp/B0HF6H57W5/" target="_blank" rel="noopener">Buy on Amazon &rarr;</a>
+      </div>
+    </div>
+
+    <!-- Under the Palms - newest -->
+    <div class="book reveal d3">
+      <div class="cvr real">
+        <div class="binding"></div>
+      </div>
+      <div class="meta">
+        <span class="lbl is-newest">Newest release</span>
+        <div class="t">Under the Palms <em>&mdash; coastal poetry</em></div>
+        <div class="desc">Coastal poetry and stories with sand still stuck between the pages.</div>
+        <a href="#" data-needs-asin="under-the-palms">Buy on Amazon &rarr;</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section class="about" id="about">
+  <div class="wrap">
+    <div class="portrait-stack reveal">
+      <div class="polaroid-back"></div>
+      <div class="polaroid-front"></div>
+      <div class="portrait"></div>
+      <div class="tape-strip a"></div>
+      <div class="tape-strip b"></div>
+    </div>
+    <div>
+      <div class="kicker reveal">Author's note</div>
+      <h3 class="reveal d1">Softening<br/>with <em>time</em>.</h3>
+      <div class="letter reveal d2">
+        <p><span class="drop">T</span>his book began in a way I never expected. My fifteen-year-old granddaughter had been writing a novel, a good one, until her spark dimmed and the pages went still. One Saturday morning, we stopped for coffee and wandered into a women's poetry reading. We didn't plan it. We simply walked in and felt something shift.</p>
+        <p>A woman stood and read an abecedarian. I had never heard of one. It was beautiful and brave, and it nudged something awake in me. I went home and wrote one. Then another. Then poems about everyday life — the past, the present, the future — and somewhere in the middle of my writing, something stirred in her too. She picked up her book again. She is writing as I write.</p>
+        <p>This collection grew from that shared spark — a circle of inspiration that passed from her to me, and back to her again.</p>
+      </div>
+      <div class="sig reveal d3">Kelley</div>
+      <div class="sig-sub reveal d3">Kelley Cole Schemmel · Gulf Coast · 2026</div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= POSTCARDS / MOMENTS ================= -->
+<section class="postcards">
+  <div class="head">
+    <div class="eyebrow reveal">§ Postcards from the coast</div>
+    <h3 class="reveal d1">Small moments,<br/><em>collected.</em></h3>
+    <p class="reveal d2">Little scraps from her notebooks — mugs, mats, tides, the sky's warmest hour. Pieces of the life the book is made of.</p>
+  </div>
+
+  <div class="grid">
+    <div class="card p1 reveal" style="background-image:url('assets/yoga-mat-sunset.jpg')">
+      <div class="postmark">Yoga<br/>Mat<br/>№ 4</div>
+      <div class="cap">The mat<span class="l">always knows what to do with me.</span></div>
+    </div>
+
+    <div class="card type-text p2 reveal d1">
+      <div class="stamp">
+        <div class="inner">
+          <div class="sm">Fla</div>
+          <div class="icon">S</div>
+          <div class="sm">$</div>
+        </div>
+      </div>
+      <div class="quote">Be salty. The good kind. Salt keeps life from going bland.</div>
+      <div class="from">from Be Salty</div>
+    </div>
+
+    <div class="card p3 reveal d1" style="background-image:url('assets/coffee-window.jpg')">
+      <div class="postmark">A.M.<br/>Ritual</div>
+      <div class="cap">Morning<span class="l">the mug matters.</span></div>
+    </div>
+
+    <div class="card p4 reveal d2" style="background-image:url('assets/pier-pastel.jpg')">
+      <div class="postmark">Golden<br/>Hour</div>
+      <div class="cap">Golden hour<span class="l">the sky leans into its warmest colors.</span></div>
+    </div>
+
+    <div class="card p5 reveal d2" style="background-image:url('assets/book-on-beach.jpg')">
+      <div class="postmark">Read<br/>Slow</div>
+      <div class="cap">Between the pages<span class="l">a book that feels like soft company.</span></div>
+    </div>
+
+    <div class="card type-text p6 reveal d2">
+      <div class="stamp">
+        <div class="inner">
+          <div class="sm">Om</div>
+          <div class="icon">Y</div>
+          <div class="sm">·</div>
+        </div>
+      </div>
+      <div class="quote">Yoga isn't just a practice — it's my reset button, my survival skill.</div>
+      <div class="from">from Yoga Is the Answer</div>
+    </div>
+
+    <div class="card p7 reveal d3" style="background-image:url('assets/gulf-pastel-sunset.jpg')">
+      <div class="postmark">Gulf<br/>Rx</div>
+      <div class="cap">Gulf therapy<span class="l">medicine. breath. the world slows.</span></div>
+    </div>
+
+    <div class="card p8 reveal d3" style="background-image:url('assets/coastal-sunrise-yoga.jpg')">
+      <div class="postmark">Sun<br/>Salute</div>
+      <div class="cap">Sun salutation<span class="l">a small declaration that peace is still possible.</span></div>
+    </div>
+
+    <div class="card type-text p9 reveal d3">
+      <div class="stamp">
+        <div class="inner">
+          <div class="sm">Joy</div>
+          <div class="icon">J</div>
+          <div class="sm">·</div>
+        </div>
+      </div>
+      <div class="quote">Tiny joys — the anchors that keep you steady.</div>
+      <div class="from">from Tiny Joys</div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SECTIONS AT A GLANCE ================= -->
+<section class="sections">
+  <div class="wrap">
+    <div class="lhs reveal">
+      <div class="eyebrow">§ Contents</div>
+      <h3>Seven <em>sections</em>,<br/>one long exhale.</h3>
+      <p>The book moves the way a good day at the coast does — a spark in the morning, humor by lunchtime, tide-turning honesty, a slow drive south, and something soft to leave behind.</p>
+      <div class="book-thumb" aria-hidden="true"></div>
+    </div>
+
+    <div class="list">
+      <div class="row reveal">
+        <div class="no">I</div>
+        <div class="t">Where the Spark Begins <em>identity, nostalgia, small awakenings</em></div>
+        <div class="pg">p. 6</div>
+      </div>
+      <div class="row reveal">
+        <div class="no">II</div>
+        <div class="t">The Lighthearted Human Stuff <em>frenchies, bookstores, 2 a.m. thoughts</em></div>
+        <div class="pg">p. 34</div>
+      </div>
+      <div class="row reveal">
+        <div class="no">III</div>
+        <div class="t">Where the Tide Turns <em>parenting, healing, unlearning</em></div>
+        <div class="pg">p. 72</div>
+      </div>
+      <div class="row reveal">
+        <div class="no">IV</div>
+        <div class="t">What We Carry Forward <em>tools, rituals, breath</em></div>
+        <div class="pg">p. 108</div>
+      </div>
+      <div class="row reveal">
+        <div class="no">V</div>
+        <div class="t">The Humor in Living <em>toddlers in fur coats, pink moments</em></div>
+        <div class="pg">p. 132</div>
+      </div>
+      <div class="row reveal">
+        <div class="no">VI</div>
+        <div class="t">Journeys That Feel Like Exhaling <em>Key Largo · Marathon · Indian Rocks</em></div>
+        <div class="pg">p. 152</div>
+      </div>
+      <div class="row reveal">
+        <div class="no">VII</div>
+        <div class="t">Legacy, Softness &amp; What Remains <em>the love that outlives us</em></div>
+        <div class="pg">p. 164</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= OUTRO / FOOTER ================= -->
+<footer class="outro">
+  <div class="moon"></div>
+  <div class="wrap">
+    <div class="kicker reveal">For anyone who has ever felt the pull of saltwater</div>
+    <h3 class="reveal d1">The shore <em>is more than</em><br/>a place.</h3>
+    <div class="lines reveal d2">
+      <span>It's a feeling</span>
+      <span>A compass</span>
+      <span>A home</span>
+    </div>
+
+    <div class="buys reveal d3">
+      <a class="btn filled" href="#" data-needs-asin="under-the-palms">Get the book</a>
+      <a class="btn" href="#flipbook">Read a preview</a>
+      <a class="btn" href="mailto:hello@kelleycoleschemmel.com">Say hello</a>
+    </div>
+
+    <div class="signoff reveal">— Kelley</div>
+    <div class="signoff-sub reveal">until the next tide</div>
+
+    <div class="colophon">
+      <div class="col"><b>Books</b>
+        Under the Palms · 2026<br/>
+        Saltwater, Yoga &amp; a Little Chaos<br/>
+        Light Between the Waves
+      </div>
+      <div class="col"><b>Elsewhere</b>
+        Amazon<br/>
+        Instagram<br/>
+        Substack
+      </div>
+      <div class="col"><b>Colophon</b>
+        Type: Cormorant · Fraunces · Petit Formal<br/>
+        Photography: coastal &amp; personal<br/>
+        © MMXXVI Kelley Cole Schemmel
+      </div>
+    </div>
+
+    <div class="copyline">Made on the Gulf Coast · with saltwater still in the hair</div>
+  </div>
+</footer>
+
+<script>
+/* ---------- nav scroll state ---------- */
+const nav = document.getElementById('nav');
+const hero = document.getElementById('hero');
+const onScroll = () => {
+  const y = window.scrollY;
+  nav.classList.toggle('is-scrolled', y > hero.offsetHeight - 100);
+};
+window.addEventListener('scroll', onScroll, { passive: true });
+onScroll();
+
+/* ---------- reveal on view ---------- */
+const io = new IntersectionObserver((entries) => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      e.target.classList.add('is-in');
+      io.unobserve(e.target);
+    }
+  });
+}, { threshold: 0.12, rootMargin: '0px 0px -60px 0px' });
+document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+
+/* ---------- hero staggered entry ---------- */
+document.querySelectorAll('[data-hero]').forEach((el) => {
+  const i = parseInt(el.getAttribute('data-hero'), 10) || 0;
+  el.style.opacity = 0;
+  el.style.transform = 'translateY(24px)';
+  el.style.transition = `opacity 1.4s ease ${0.15 + i*0.14}s, transform 1.4s cubic-bezier(.2,.7,.2,1) ${0.15 + i*0.14}s`;
+  requestAnimationFrame(() => {
+    requestAnimationFrame(() => {
+      el.style.opacity = 1;
+      el.style.transform = 'translateY(0)';
+    });
+  });
+});
+
+/* ---------- cover mouse tilt ---------- */
+const cover = document.getElementById('cover3d');
+const coverStage = cover?.parentElement;
+if (cover && coverStage) {
+  let rafId = 0;
+  coverStage.addEventListener('mousemove', (e) => {
+    const r = coverStage.getBoundingClientRect();
+    const nx = (e.clientX - r.left) / r.width - 0.5;
+    const ny = (e.clientY - r.top) / r.height - 0.5;
+    const tx = -14 + nx * -12;
+    const ty = 2 + ny * -10;
+    cancelAnimationFrame(rafId);
+    rafId = requestAnimationFrame(() => {
+      cover.style.animation = 'none';
+      cover.style.transform = `rotateY(${tx}deg) rotateX(${ty}deg)`;
+    });
+  });
+  coverStage.addEventListener('mouseleave', () => {
+    cover.style.animation = '';
+  });
+}
+
+/* ---------- parallax on hero waves ---------- */
+window.addEventListener('scroll', () => {
+  const y = window.scrollY;
+  if (y > window.innerHeight) return;
+  const p = y / window.innerHeight;
+  const sun = hero.querySelector('.sun');
+  if (sun) sun.style.transform = `translateX(-50%) translateY(${p * -40}px) scale(${1 + p*0.05})`;
+}, { passive: true });
+</script>
+
+</body>
+</html>
